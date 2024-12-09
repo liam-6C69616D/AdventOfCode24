@@ -9,3 +9,6 @@ end
 search = Wordsearch.new(lines)
 search.check_horizontal
 search.check_vertical
+search.check_diag
+
+puts search.count
