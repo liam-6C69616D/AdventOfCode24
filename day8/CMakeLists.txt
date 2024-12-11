@@ -12,4 +12,5 @@ include_directories(include)
 
 # Add an executable target
 add_executable(puzzle1 src/puzzle1.cpp)
+add_executable(puzzle2 src/puzzle2.cpp)
 
